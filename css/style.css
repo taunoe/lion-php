@@ -1,0 +1,272 @@
+/* v2.0 | 20110126
+
+http://meyerweb.com/eric/tools/css/reset/
+
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/************************ Reset end ***********************************/
+/*
+	#fdbb2f Kollane
+	#3a3a3a taust
+*/
+ 
+body{
+	background-color: #fff;
+	color: #3a3a3a;
+	font: normal 100% 'Spinnaker', sans-serif;
+}
+
+figure img,
+figure embed,
+figure video {
+	max-width: 100%;
+}
+
+a{
+	font: bold 0.7533333333333em 'Spinnaker', sans-serif;
+	color: #729bf8;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+header{
+	width: 100%;
+	padding: 0.5em;
+	border-bottom: 0.3em dashed #3a3a3a;
+	background-color: #fdbb2f;
+	position: fixed;
+	-moz-box-shadow: -4px 4px 15px rgba(163, 163, 163, 0.5); 
+	-webkit-box-shadow: -4px 4px 15px rgba(163, 163, 163, 0.5); 
+	box-shadow: -4px 4px 15px rgba(163, 163, 163, 0.5);
+
+} 
+
+header h1{
+	font: bold 2em 'Spinnaker', sans-serif;/* 32/16 */
+	text-align: center;
+	color: #3a3a3a;
+	letter-spacing: 0.15em;
+}
+
+header h1 a{
+	color: #3a3a3a;
+}
+
+#gplus{
+	float: right;
+}
+
+#container{
+	width:100%;
+	margin: auto;
+}
+
+/*------------------------------------------
+	MENU 
+------------------------------------------*/
+nav{
+ float:left;
+ width:20%;
+ padding-top: 5em;
+}
+
+nav a{
+ color: #3a3a3a;
+ padding: 0.1em;
+}
+
+nav li{
+ color: #3a3a3a;
+ padding: 0.4em;
+ 
+}
+
+nav li a{
+ -webkit-transition: border-bottom 0.2s ease;
+ -moz-transition: border-bottom 0.2s ease;
+ -o-transition: border-bottom 0.2s ease;
+ transition: border-bottom 0.2s ease;
+}
+
+nav li a:hover{
+ border-bottom: 0.3em solid #fdbb2f;
+ color: #3a3a3a;
+}
+
+nav li:active{
+
+}
+
+.current{
+ color: #fdbb2f;
+ border-bottom: 0.3em solid #fdbb2f;
+ -webkit-transition: color 0.2s linear;
+ -moz-transition: color 0.2s linear;
+ -o-transition: color 0.2s linear;
+ transition: color 0.2s linear;
+}
+
+.current:hover{
+ color: #3a3a3a;
+}
+/*-------- MENU end --------------*/
+
+#page{
+	float:right;
+	width: 80%;
+	padding-top: 5em;
+}
+
+.loading{
+	width:128px;
+	margin:auto;
+}
+
+.loading img{
+	width:128px;
+ 	padding-top: 4em;
+ 	margin: auto;
+}
+
+.avaleht ul li{
+ float: left;
+ margin: 0 3% 2.4% 0;
+}
+
+.avaleht ul li img{
+ padding: 0.3em;
+ border:1px solid #f1f1f1;
+ background-color: #fff;
+ -webkit-transition: border 0.3s ease;
+ -moz-transition: border 0.3s ease;
+ -o-transition: border 0.3s ease;
+ transition: border 0.3s ease;
+}
+
+.avaleht ul li img:hover{
+	border:1px solid #fdbb2f;
+}
+
+.content{
+	margin: auto;
+}
+	section{
+		
+	}
+
+	section h1{
+		font: bold 1.5em 'Spinnaker', sans-serif;
+		text-align: left;
+		color: #3a3a3a;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		margin-bottom: 0.7em;
+	}
+		figure{
+			float:left;
+			width:40%;
+		}
+		section figure img{
+			width:96%;
+			padding: 0.4em;
+			border:1px solid #f1f1f1;
+			-webkit-transition: border 0.3s ease;
+ 			-moz-transition: border 0.3s ease;
+ 			-o-transition: border 0.3s ease;
+ 			transition: border 0.3s ease;
+		}
+		section figure img:hover{
+			border:1px solid #fdbb2f;
+		}
+		section figure figcaption{
+			text-align:center;
+			font-style:italic;
+		}
+		section p{
+			text-align:left;
+			text-indent:1em;
+			margin-left:42%;
+		}
+
+
+
+/*****************************************************/
+/*
+ 320px 	phones portrait mode
+ 480px	phones landscape mode
+ 600px	smaller tablets portrait mode
+ 768px	tablet ipad portrait mode
+ 1024px	tablet ipad landscape mode
+ 1200px	desktop
+*/
+@media screen and (max-width: 800px){
+	
+
+}
+
+@media screen and (max-width: 389px){
+	header{
+			width: 100%;
+			position: relative;
+			} 
+
+	nav{
+ 		display:none;
+		}
+
+	#page{
+			width: 98%;
+			margin: auto;
+			padding-top: 1em;
+			}
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+

@@ -1,0 +1,189 @@
+/* v2.0 | 20110126
+
+http://meyerweb.com/eric/tools/css/reset/
+
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/************************ Reset end ***********************************/
+/*
+	#fdbb2f Kollane
+	#3a3a3a taust
+*/
+ 
+body{
+	background-color: #fff;
+	color: #3a3a3a;
+	font: normal 100% 'Spinnaker', sans-serif;
+}
+
+figure img,
+figure embed,
+figure video {
+	max-width: 100%;
+}
+
+a{
+	font: bold 0.7533333333333em 'Spinnaker', sans-serif;
+	color: #729bf8;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+header{
+	width: 100%;
+	padding: 0.5em;
+	border-bottom: 0.3em dashed #3a3a3a;
+	background-color: #fdbb2f;
+	position: fixed;
+	-moz-box-shadow: -4px 4px 15px rgba(163, 163, 163, 0.5); 
+	-webkit-box-shadow: -4px 4px 15px rgba(163, 163, 163, 0.5); 
+	box-shadow: -4px 4px 15px rgba(163, 163, 163, 0.5);
+
+} 
+
+header h1{
+	font: bold 2em 'Spinnaker', sans-serif;/* 32/16 */
+	text-align: center;
+	color: #3a3a3a;
+	letter-spacing: 0.15em;
+}
+
+nav{
+ float:left;
+ padding-top: 5em;
+ padding-left: 1em;
+}
+
+nav a{
+ color: #3a3a3a;
+ padding: 0.1em;
+}
+
+nav li{
+ color: #3a3a3a;
+ padding: 0.5em;
+ border-radius: 5px;
+ -webkit-transition: background 0.2s linear, box-shadow 0.2s ease;
+ -moz-transition: background 0.2s linear, box-shadow 0.2s ease;
+ -o-transition: background 0.2s linear, box-shadow 0.2s ease;
+ transition: background 0.2s linear, box-shadow 0.2s ease;
+}
+
+nav li:hover{
+ background: #fdbb2f;
+ border-radius: 5px;
+ color: #3a3a3a;
+}
+
+nav li:active{
+ -moz-box-shadow: inset 0px 0px 15px rgba(163, 163, 163, 0.5); 
+ -webkit-box-shadow: inset 0px 0px 15px rgba(163, 163, 163, 0.5); 
+ box-shadow: inset 0px 0px 15px rgba(163, 163, 163, 0.5);
+}
+
+/* aktiivne leht */
+.current{
+ color: #fdbb2f;
+ -webkit-transition: color 0.2s linear;
+ -moz-transition: color 0.2s linear;
+ -o-transition: color 0.2s linear;
+ transition: color 0.2s linear;
+}
+
+.current:hover{
+ color: #fff;
+}
+
+.avaleht ul li{
+ float: left;
+ margin: 0 3% 2.8% 0;
+}
+
+#page{
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 5em;
+}
+	section{
+		border:1px dotted #ccc;
+	}
+		figure{
+			float:right;
+		}
+		figure img{
+	
+		}
+		
+.loading img{
+ width:5em;
+ padding: 4em;
+ margin-left: 50%;
+ margin-right: 50%;
+}
+
+/*****************************************************/
+/*
+ 320px 	phones portrait mode
+ 480px	phones landscape mode
+ 600px	smaller tablets portrait mode
+ 768px	tablet ipad portrait mode
+ 1024px	tablet ipad landscape mode
+ 1200px	desktop
+*/
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 520px){
+
+}
+
+@media screen and (min-width: 1200px){
+
+}
+

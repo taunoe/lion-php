@@ -1,0 +1,28 @@
+<?php
+
+$o = 'images/o/';
+$m = 'images/m/';
+$t = 'images/t/';
+
+$data = array(
+	data=>array(
+			1=>array(
+				"title"=>"Nimi 1",
+				"image-o"=>"images/o/1.jpg",
+				"image-m"=>"images/m/1.jpg",
+				"image-t"=>"images/t/1.jpg",
+				"data"=>"Pikk jutt on ilus jutt."
+			),
+			2=>array(
+				"title"=>"Nimi 2",
+				"image-o"=>"images/o/2.jpg",
+				"image-m"=>"images/m/2.jpg",
+				"image-t"=>"images/t/2.jpg",
+				"data"=>"Lyhike jutt on kole jutt."
+			)
+	)
+);
+
+ print_r(json_encode($data));
+
+?>
